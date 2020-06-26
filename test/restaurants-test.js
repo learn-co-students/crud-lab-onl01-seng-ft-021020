@@ -44,6 +44,7 @@ describe('RestaurantInput', () => {
     form.simulate('submit',  { preventDefault() {} })
     // console.log(store.getState());
     expect(store.getState().restaurants[0].text).to.equal('Hello')
+    // console.log(store.getState());
   });
 
 });
